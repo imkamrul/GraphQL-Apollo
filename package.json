@@ -1,0 +1,17 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@types/node": "^20.10.4",
+    "graphql": "^16.8.1",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  }
+}
